@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.matthewappium.testUtils.ExtentReportListeners"/>
+  </listeners>
+  <test thread-count="5" name="General Store Form Page Test(failed)">
+    <classes>
+      <class name="com.matthewappium.tests.GeneralStoreFormPageTest">
+        <methods>
+          <include name="correctInfoAddedFormSubmit" invocation-numbers="0"/>
+          <include name="configureAppium"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.matthewappium.tests.GeneralStoreFormPageTest -->
+    </classes>
+  </test> <!-- General Store Form Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
